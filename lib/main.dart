@@ -120,6 +120,21 @@ class MyApp extends StatelessWidget {
                       )),
                 ),
               ),
+              
+              SizedBox(height: 10,),
+
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                Padding(
+                  padding: EdgeInsets.only(right: 24),
+                  child: Text(
+                    'Forget Password?',
+                    textAlign: TextAlign.end,
+                    ),
+                )
+              ],),
+
               const SizedBox(
                 height: 140,
               ),
